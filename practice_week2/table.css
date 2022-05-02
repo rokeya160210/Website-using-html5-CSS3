@@ -1,0 +1,75 @@
+nav{
+    box-sizing: border-box;
+    border: 1px solid #06425C;
+    color:#06425C;
+    background-color: #FFFFFF;
+    overflow: auto;
+    padding-left: 20px;
+}
+nav a{
+    box-sizing: border-box;
+
+    display: inline-block;
+    line-height: 50px;
+    height: 60px;
+    color: #FFFFFF;
+    background-color: #486B02;
+    text-decoration: none;
+    margin: 1% 5% 1% 0;
+    padding: 1% 5%;
+    border-radius: 25px;
+}
+
+/* table css */
+table{
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 10%;
+    margin-bottom: 25%;
+    margin-left: 25%;
+}
+table.cal{
+    color: #211278;
+    border-spacing: 0;
+    border: 3px solid black;
+    -webkit-border-radius: 25px 25px 0 0;
+    border-radius: 0 0 25px 25px;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-bottom:2%;
+}
+
+tr:nth-child(odd){
+    background: #666666;
+}
+tr:nth-child(even){
+    background: #B3B3B3;
+}
+tr:last-child{
+    -webkit-border-radius: 25px 25px 0 0;
+    border-radius: 0 0 25 px 25px;
+}
+
+tr:last-child>td:first-child{
+    -webkit-border-radius: 0 0 0 25px ;
+    border-radius: 0 0 0 25px ;
+}
+
+tr:last-child>td:last-child{
+    -webkit-border-radius: 0 0  25px 0 ;
+    border-radius: 0 0 25px  0;
+}
+.cal caption{
+    text-transform: uppercase;
+    background-color: #211278;
+    color: aliceblue;
+    font-size: 150%;
+    -webkit-border-radius: 25px 25px 0 0;
+    border-radius: 25px 25px 0 0;
+}
+
+.cal th, .cal td{
+    margin: 2px;
+    padding-bottom: 2px;
+}
